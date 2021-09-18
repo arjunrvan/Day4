@@ -516,6 +516,107 @@ nav ul li {
     border-radius: 50%;
 }
 
+.subscribe {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 100px 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscribe h2 {
+    margin: 15px 0;
+}
+
+.subscribe button {
+    width: 100px;
+    height: 50px;
+    background-color: #97BB7D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #97BB7D;
+    border-radius: 0 10px 10px 0;
+}
+
+.subscribe form {
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe input {
+    width: 500px;
+    height: 50px;
+    border-color: lightgray ;
+    border-radius: 10px 0 0 10px;
+    padding-left: 10px;
+}
+
+.bottomList {
+    width: 100%;
+    height: 260px;
+    padding: 100px 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.verticalList {
+    max-width: 260px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.verticalList ul, .verticalList ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #898989;
+}
+
+.fa-phone-alt, .fa-map-marker-alt, .fa-envelope {
+    margin-right: 10px;
+    color: #97BB7D;
+}
+
+.verticalList ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottomNav {
+    width: 100%;
+    height: 75px;
+    background-color: #FAFAFA;
+    padding: 10px 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomNav p {
+    font-weight: bold;
+    color: #898989;
+}
+
+.bottomNav ul, .bottomNav ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+    color: #97BB7D;
+}
 
 
 
